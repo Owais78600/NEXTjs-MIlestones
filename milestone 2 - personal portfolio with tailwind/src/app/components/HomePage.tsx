@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Navigation from './Navigation';
 import { TypeAnimation } from 'react-type-animation';
+import Image from 'next/image';
 
 export default function HomePage() {
   return (
@@ -27,9 +28,9 @@ export default function HomePage() {
             className="text-center"
           >
             <div className="backdrop-blur-sm bg-white/10 p-8 rounded-2xl shadow-xl mx-auto max-w-2xl">
-              <h1 className="text-4xl sm:text-6xl font-bold mb-6">
-                <span className="text-white">Hey, it's</span>
-                
+            <h1 className="text-4xl sm:text-6xl font-bold mb-6">
+  <span className="text-white">Hey, it&apos;s</span>
+
                 <TypeAnimation
                   sequence={[
                     ' Owais',
