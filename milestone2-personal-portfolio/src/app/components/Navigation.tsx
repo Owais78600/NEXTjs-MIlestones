@@ -27,7 +27,7 @@ export default function Navigation() {
             animate={{ opacity: 1, x: 0 }}
             className="text-xl font-bold"
           >
-            Persnol Portfolio
+            Personal Portfolio
           </motion.div>
 
           <div className="hidden md:block">
