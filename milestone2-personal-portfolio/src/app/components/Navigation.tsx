@@ -31,7 +31,7 @@ export default function Navigation() {
           </motion.div>
 
           <div className="hidden md:block">
-            <div className="flex space-x-8">
+            <div className="flex space-x-8 color-white">
               <NavLink href="/">Home</NavLink>
               <NavLink href="/about">About</NavLink>
               <NavLink href="/projects">Projects</NavLink>
